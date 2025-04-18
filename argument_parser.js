@@ -1,5 +1,5 @@
 /*jslint
-    fudge
+    node, unordered
 */
 
 //MD # argument_parser/p
@@ -8,6 +8,7 @@
 //MD an object/p
 //MD ## Example/p
 //MD `command targeta targetb -fgh --option1 a b c --option2 d`/p
+//MD /p
 //MD Returns:/p
 //MD ```/p
 //MD {/p
@@ -52,7 +53,7 @@ export default Object.freeze(function (arg_list) {
 
             return results;
 
-        };
+        },
 
         initial
 
