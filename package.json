@@ -1,10 +1,12 @@
 {
   "name": "@jlrwi/argument_parser",
   "version": "1.0.0",
-  "description": "Simple arguments parser",
+  "description": "Simple command-line argument parser",
   "main": "argument_parser.js",
+  "homepage": "https://github.com/jlrwi/argument_parser",
+  "repository": "github:jlrwi/argument_parser",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "stage": "extract-doc ./argument_parser.js README.md"
   },
   "author": "Jonathan Reimer",
   "license": "ISC",
